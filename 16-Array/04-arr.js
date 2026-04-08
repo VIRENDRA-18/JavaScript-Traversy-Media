@@ -50,3 +50,69 @@ console.log(Singlenumber);
 const ArrString = Array.from('VIRENDRA');
 
 console.log(ArrString);
+
+
+
+
+//   How to Get/Access Elements from an Array in JS
+
+//  We can access array elements using square bracket notation with the index
+
+
+const User_Name = ['Virendra', 'Aman', 'Himanshu', 'Levish', 'Nitin',];
+
+console.log(User_Name[0]);
+console.log(User_Name[2]);
+console.log(User_Name[1]);
+console.log(User_Name[3]);
+
+
+// we can also acces the array using loops
+//   -->>   example 1
+const salad = ["🍅", "🍄", "🥦", "🥒", "🌽", "🥕", "🥑"];
+
+console.log(salad);
+
+// using for loop 
+for (let i = 0; i < salad.length; i++) {
+    console.log(salad[i]);
+}
+
+//   -->>   example 2
+const EvenNumber = [2,4,6,8,10,12,14];
+
+console.log(EvenNumber);
+
+// Using For loop
+for (let i = 0; i < EvenNumber.length; i++) {
+    console.log(EvenNumber[i]);
+}
+
+//   -->>   example 3
+
+let ClgSportsCulb = ['Drona Club', 'Sports Club', 'Technical Club'];
+
+console.log(ClgSportsCulb);
+
+// Using For loop
+for(let i = 0; i < ClgSportsCulb.length; i++) {
+    console.log(ClgSportsCulb[i]);
+}
+
+
+// Using forEach method
+
+//   -->>   example 1
+
+// salad.forEach((Vegetables, index) => {
+//     console.log(`Element at index ${index} is ${Vegetabless}`)
+// });
+
+
+
+
+
+
+
+
+
